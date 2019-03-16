@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Замены МТКП</string>
+    <string name="navigation_home">Home</string>
+    <string name="navigation_changes">Changes</string>
+    <string name="name">Name</string>
+    <string name="button_follow">Подписаться</string>
+</resources>
