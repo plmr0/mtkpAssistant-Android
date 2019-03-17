@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">Замены МТКП</string>
-    <string name="navigation_home">Home</string>
-    <string name="navigation_changes">Changes</string>
-    <string name="name">Name</string>
-    <string name="button_follow">Подписаться</string>
+
+    <string name="navigation_home">Замены</string>
+    <string name="navigation_changes">Расписание</string>
+    <string name="navigation_debug">Уведомления</string>
+
+    <string name="debug_topic">\"Debug\" Topic</string>
+    <string name="push_topic">\"Push\" Topic</string>
 </resources>

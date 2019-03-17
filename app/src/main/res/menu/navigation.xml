@@ -3,11 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id = "@+id/navigation_home"
-        android:title="@string/navigation_home" />
+        android:id = "@+id/navigation_changes"
+        android:title="@string/navigation_home"
+        android:icon="@mipmap/nv_changes" />
 
     <item
-        android:id = "@+id/navigation_changes"
-        android:title="@string/navigation_changes" />
+        android:id = "@+id/navigation_schedule"
+        android:title="@string/navigation_changes"
+        android:icon="@mipmap/nv_schedule" />
+
+    <item
+        android:id = "@+id/navigation_debug"
+        android:title="@string/navigation_debug"
+        android:icon="@mipmap/nv_notifications" />
 
 </menu>
