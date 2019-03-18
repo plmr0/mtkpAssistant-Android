@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">Замены МТКП</string>
+    <string name="app_name">Помощник МТКП</string>
 
-    <string name="navigation_home">Замены</string>
-    <string name="navigation_changes">Расписание</string>
-    <string name="navigation_debug">Уведомления</string>
+    <string name="navigation_changes_string">Замены</string>
+    <string name="navigation_schedule_string">Расписание</string>
+    <string name="navigation_notifications_string">Уведомления</string>
 
     <string name="debug_topic">\"Debug\" Topic</string>
     <string name="push_topic">\"Push\" Topic</string>
 
-    <string name="big_gay_text">Замены</string>
-    <string name="lol_kek">Расписание</string>
+    <string name="changes_temp">Замены</string>
+    <string name="schedule_temp">Расписание</string>
 </resources>

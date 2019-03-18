@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import com.google.firebase.FirebaseApp;
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity
                 case R.id.navigation_schedule:
                     loadFragment(ScheduleFragment.newInstance());
                     return true;
-                case R.id.navigation_debug:
+                case R.id.navigation_notifications:
                     loadFragment(NotificationsFragment.newInstance());
                     return true;
             }
@@ -52,10 +53,11 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        loadFragment(ChangesFragment.newInstance()); // todo problem onResume()
-
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+//        loadFragment(ChangesFragment.newInstance()); // todo problem onResume()
+
     }
 
 }

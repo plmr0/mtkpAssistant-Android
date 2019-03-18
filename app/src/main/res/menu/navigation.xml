@@ -4,17 +4,17 @@
 
     <item
         android:id = "@+id/navigation_changes"
-        android:title="@string/navigation_home"
+        android:title="@string/navigation_changes_string"
         android:icon="@mipmap/nv_changes" />
 
     <item
         android:id = "@+id/navigation_schedule"
-        android:title="@string/navigation_changes"
+        android:title="@string/navigation_schedule_string"
         android:icon="@mipmap/nv_schedule" />
 
     <item
-        android:id = "@+id/navigation_debug"
-        android:title="@string/navigation_debug"
+        android:id = "@+id/navigation_notifications"
+        android:title="@string/navigation_notifications_string"
         android:icon="@mipmap/nv_notifications" />
 
 </menu>
