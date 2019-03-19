@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Помощник МТКП</string>
+    <string name="app_name">МТКП Ассистент</string>
 
     <string name="navigation_changes_string">Замены</string>
     <string name="navigation_schedule_string">Расписание</string>
