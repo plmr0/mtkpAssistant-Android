@@ -1,1 +1,1 @@
-# scheduleMTKP-Android
+# mtkpAssistant-Android
