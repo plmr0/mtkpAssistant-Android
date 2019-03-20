@@ -1,4 +1,4 @@
-package com.devplmr.schedulemtkp_androidclient;
+package com.devplmr.mtkpAssistant;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

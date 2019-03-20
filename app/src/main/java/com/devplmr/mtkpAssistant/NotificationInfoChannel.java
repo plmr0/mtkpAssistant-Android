@@ -1,4 +1,4 @@
-package com.devplmr.schedulemtkp_androidclient;
+package com.devplmr.mtkpAssistant;
 
 public final class NotificationInfoChannel
 {

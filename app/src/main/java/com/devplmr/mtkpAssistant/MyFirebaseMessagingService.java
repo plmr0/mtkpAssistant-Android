@@ -1,4 +1,4 @@
-package com.devplmr.schedulemtkp_androidclient;
+package com.devplmr.mtkpAssistant;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;

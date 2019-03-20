@@ -1,4 +1,4 @@
-package com.devplmr.schedulemtkp_androidclient;
+package com.devplmr.mtkpAssistant;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;

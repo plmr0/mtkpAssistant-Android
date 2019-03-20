@@ -1,4 +1,4 @@
-package com.devplmr.schedulemtkp_androidclient;
+package com.devplmr.mtkpAssistant;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -6,21 +6,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class ChangesFragment extends Fragment
+public class ScheduleFragment extends Fragment
 {
-    public ChangesFragment()
+    public ScheduleFragment()
     {
     }
 
-    public static ChangesFragment newInstance()
+    public static ScheduleFragment newInstance()
     {
-        return new ChangesFragment();
+        return new ScheduleFragment();
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        View FragmentView = inflater.inflate(R.layout.fragment_changes, container, false);
+        View FragmentView = inflater.inflate(R.layout.fragment_schedule, container, false);
         return FragmentView;
     }
 }

@@ -270,10 +270,6 @@ __pycache__/
 *.bin
 *.lock
 
-/gradlew.bat
-/gradlew
-/gradle/wrapper/gradle-wrapper.jar
-/gradle/wrapper/gradle-wrapper.properties
 *.xlsx
 *.iml
 .gradle
