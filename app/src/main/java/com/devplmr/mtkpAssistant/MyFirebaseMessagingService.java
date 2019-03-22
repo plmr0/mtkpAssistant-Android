@@ -3,6 +3,8 @@ package com.devplmr.mtkpAssistant;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
+import java.util.Map;
+
 
 public class MyFirebaseMessagingService extends FirebaseMessagingService
 {
@@ -11,12 +13,21 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService
     {
         super.onMessageReceived(remoteMessage);
 
-        if (remoteMessage.getNotification() != null)
+        if (remoteMessage != null)
         {
-            String title = remoteMessage.getNotification().getTitle();
-            String body = remoteMessage.getNotification().getBody();
+            Map<String, String> data = remoteMessage.getData();
 
-            NotificationFirebase.displayNotification(getApplicationContext(), title, body);
+            String channel = data.get("channel_id");
+            String type = data.get("type");
+            String title = data.get("title");
+            String body = data.get("body");
+
+            NotificationFirebase.displayNotification(getApplicationContext(), channel, Integer.parseInt(type), title, body
+                            .replace("[", "")
+                            .replace("]", "")
+                            .replace("\"", "")
+                            .split(",")
+                    );
         }
     }
 
