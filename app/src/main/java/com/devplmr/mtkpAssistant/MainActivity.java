@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener()
     {
-
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item)
         {
@@ -36,7 +35,6 @@ public class MainActivity extends AppCompatActivity
             }
             return false;
         }
-
     };
 
     private void loadFragment(Fragment fragment)
@@ -72,8 +70,17 @@ public class MainActivity extends AppCompatActivity
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
-//        loadFragment(ChangesFragment.newInstance()); // todo problem onResume()
-
+        switch (navigation.getSelectedItemId())
+        {
+            case R.id.navigation_changes:
+                loadFragment(ChangesFragment.newInstance());
+                break;
+            case R.id.navigation_schedule:
+                loadFragment(ScheduleFragment.newInstance());
+                break;
+            case R.id.navigation_notifications:
+                loadFragment(NotificationsFragment.newInstance());
+                break;
+        }
     }
-
 }
