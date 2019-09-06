@@ -13,8 +13,8 @@
         android:icon="@mipmap/nv_schedule" />
 
     <item
-        android:id = "@+id/navigation_notifications"
-        android:title="@string/navigation_notifications_string"
-        android:icon="@mipmap/nv_notifications" />
+        android:id="@+id/navigation_settings"
+        android:icon="@mipmap/nv_settings"
+        android:title="@string/navigation_settings_string" />
 
 </menu>

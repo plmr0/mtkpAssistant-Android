@@ -3,11 +3,16 @@
 
     <string name="navigation_changes_string">Замены</string>
     <string name="navigation_schedule_string">Расписание</string>
-    <string name="navigation_notifications_string">Уведомления</string>
+    <string name="navigation_settings_string">Настройки</string>
 
     <string name="debug_topic">\"Debug\" Topic</string>
     <string name="push_topic">\"Push\" Topic</string>
 
     <string name="changes_temp">Замены</string>
     <string name="schedule_temp">Расписание</string>
+
+    <string name="group_list_label">Группа</string>
+
+    <string-array name="group_list">
+    </string-array>
 </resources>

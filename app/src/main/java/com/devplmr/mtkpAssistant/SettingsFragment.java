@@ -12,23 +12,24 @@ import com.google.firebase.messaging.FirebaseMessaging;
 
 import java.util.Objects;
 
-public class NotificationsFragment extends Fragment
+public class SettingsFragment extends Fragment
 {
-    public NotificationsFragment() {
+    public SettingsFragment()
+    {
     }
 
     private CompoundButton debugTopicSwitch;
     private CompoundButton pushTopicSwitch;
 
-    public static NotificationsFragment newInstance()
+    public static SettingsFragment newInstance()
     {
-        return new NotificationsFragment();
+        return new SettingsFragment();
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        View FragmentView = inflater.inflate(R.layout.fragment_notifications, container, false);
+        View FragmentView = inflater.inflate(R.layout.fragment_settings, container, false);
 
         debugTopicSwitch = (CompoundButton) FragmentView.findViewById(R.id.switch1);
         pushTopicSwitch = (CompoundButton) FragmentView.findViewById(R.id.switch2);
