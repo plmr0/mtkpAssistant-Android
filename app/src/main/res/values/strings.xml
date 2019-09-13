@@ -14,5 +14,6 @@
     <string name="group_list_label">Группа</string>
 
     <string-array name="group_list">
+        <item>ТМП-72</item>
     </string-array>
 </resources>

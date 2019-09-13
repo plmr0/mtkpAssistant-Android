@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity
                 case R.id.navigation_schedule:
                     loadFragment(ScheduleFragment.newInstance());
                     return true;
-                case R.id.navigation_notifications:
-                    loadFragment(NotificationsFragment.newInstance());
+                case R.id.navigation_settings:
+                    loadFragment(SettingsFragment.newInstance());
                     return true;
             }
             return false;
@@ -78,8 +78,8 @@ public class MainActivity extends AppCompatActivity
             case R.id.navigation_schedule:
                 loadFragment(ScheduleFragment.newInstance());
                 break;
-            case R.id.navigation_notifications:
-                loadFragment(NotificationsFragment.newInstance());
+            case R.id.navigation_settings:
+                loadFragment(SettingsFragment.newInstance());
                 break;
         }
     }
